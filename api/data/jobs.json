@@ -1,0 +1,21 @@
+{
+    "beschrijving": "data van 10 mensen met als ze een IT baan hebben",
+    "Jongens": [
+       { "naam": "hank", "heeftITbaan": true, "afkomst": "nederland"},
+       { "naam": "boris", "heeftITbaan": true, "afkomst": "nederland"},
+       { "naam": "hendrik", "heeftITbaan": true, "afkomst":"nederland"},
+       { "naam": "achmed", "heeftITbaan": false, "afkomst":"burundi"},
+       { "naam": "tijs", "heeftITbaan": true, "afkomst":"nederland"},
+       { "naam": "job", "heeftITbaan": true, "afkomst":"nederland" }
+    ],
+    "Meisjes": [
+      { "naam": "iris", "heeftITbaan": false, "afkomst": "nederlands"},
+      { "naam": "kim", "heeftITbaan": false, "afkomst": "nederlands"},
+      { "naam": "roos", "heeftITbaan": false, "afkomst":"nederlands"},
+      { "naam": "sara", "heeftITbaan": true, "afkomst":"marokaans"},
+      { "naam": "Rosa", "heeftITbaan": false, "afkomst":"nederlands"},
+      { "naam": "Fatima", "heeftITbaan": false, "afkomst":"marokaans"},
+      { "naam": "Fatima", "heeftITbaan": false, "afkomst":"marokaans"}
+     ]
+
+}
