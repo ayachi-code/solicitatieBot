@@ -6,7 +6,7 @@ const router = express.Router();
 const jobPrecentage = new Jobprecentage('./data/jobs.json');
 
 let jobminimalRequirements = {
-    ervaring: '5',
+    ervaring: '3',
     diploma: ["hbo", "wo"],
     motivated: 'ja'
 };
@@ -40,6 +40,11 @@ function isoptimal(ervaring, diploma, motivatie, gender, origin) {
         approved += 60;
     }
 
+    //Senior Specialit bonus
+    if (parseInt(ervaring, 10) >= 10) {
+        approved += 26;
+    }
+
     if (diploma == jobminimalRequirements.diploma[0] || diploma == jobminimalRequirements.diploma[1]) {
         approved += 30;
     }
@@ -48,11 +53,11 @@ function isoptimal(ervaring, diploma, motivatie, gender, origin) {
         approved += 20;
     }
 
-    if (genderminderkansVROUW && gender == 'vrouw') {
-        approved -= 30;
-    } else if (genderminderkansVROUW == false && gender == 'man') {
-        approved -= 30;
-    };
+    // if (genderminderkansVROUW && gender == 'vrouw') {
+    //     approved -= 30;
+    // } else if (genderminderkansVROUW == false && gender == 'man') {
+    //     approved -= 30;
+    // };
 
     return approved;
 }
@@ -60,7 +65,7 @@ function isoptimal(ervaring, diploma, motivatie, gender, origin) {
 router.post('/', (req,res) => {
     let approveRate;
     approveRate = isoptimal(req.body.ervaring, req.body.diploma, req.body.motivated, req.body.gender, req.body.origin);
-    if (approveRate >= 100) {
+    if (approveRate >= 90) {
         res.send({
             aangenomen: true
         });

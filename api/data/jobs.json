@@ -9,13 +9,13 @@
        { "naam": "job", "heeftITbaan": true, "afkomst":"nederland" }
     ],
     "Meisjes": [
-      { "naam": "iris", "heeftITbaan": false, "afkomst": "nederlands"},
-      { "naam": "kim", "heeftITbaan": false, "afkomst": "nederlands"},
-      { "naam": "roos", "heeftITbaan": false, "afkomst":"nederlands"},
-      { "naam": "sara", "heeftITbaan": true, "afkomst":"marokaans"},
-      { "naam": "Rosa", "heeftITbaan": false, "afkomst":"nederlands"},
-      { "naam": "Fatima", "heeftITbaan": false, "afkomst":"marokaans"},
-      { "naam": "Fatima", "heeftITbaan": false, "afkomst":"marokaans"}
+      { "naam": "iris", "heeftITbaan": false, "afkomst": "nederland"},
+      { "naam": "kim", "heeftITbaan": false, "afkomst": "nederland"},
+      { "naam": "roos", "heeftITbaan": false, "afkomst":"nederland"},
+      { "naam": "sara", "heeftITbaan": true, "afkomst":"marokko"},
+      { "naam": "Rosa", "heeftITbaan": false, "afkomst":"nederland"},
+      { "naam": "Fatima", "heeftITbaan": false, "afkomst":"marokko"},
+      { "naam": "Fatima", "heeftITbaan": false, "afkomst":"marokko"}
      ]
 
 }

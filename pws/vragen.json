@@ -1,0 +1,79 @@
+{
+ "people": [
+  {
+   "name": "Achmed",
+   "age": 16,
+   "gender": "male",
+   "IT_experience": 4,
+   "motivated": true,
+   "origin": "Maroc"
+  },
+  {
+    "name": "Achmed",
+    "age": 16,
+    "gender": "male",
+    "IT_experience": 4,
+    "motivated": true,
+    "origin": "Maroc"
+   },
+   {
+    "name": "Achmed",
+    "age": 16,
+    "gender": "male",
+    "IT_experience": 4,
+    "motivated": true,
+    "origin": "Maroc"
+   },
+   {
+    "name": "Achmed",
+    "age": 16,
+    "gender": "male",
+    "IT_experience": 4,
+    "motivated": true,
+    "origin": "Maroc"
+   },
+   {
+    "name": "Achmed",
+    "age": 16,
+    "gender": "male",
+    "IT_experience": 4,
+    "motivated": true,
+    "origin": "Maroc"
+   },
+   {
+    "name": "Achmed",
+    "age": 16,
+    "gender": "male",
+    "IT_experience": 4,
+    "motivated": true,
+    "origin": "Maroc"
+   },
+   {
+    "name": "Achmed",
+    "age": 16,
+    "gender": "male",
+    "IT_experience": 4,
+    "motivated": true,
+    "origin": "Maroc"
+   },
+   {
+    "name": "Achmed",
+    "age": 16,
+    "gender": "male",
+    "IT_experience": 4,
+    "motivated": true,
+    "origin": "Maroc"
+   },
+   {
+    "name": "Achmed",
+    "age": 16,
+    "gender": "male",
+    "IT_experience": 4,
+    "motivated": true,
+    "origin": "Maroc"
+   }
+
+
+]
+
+}
